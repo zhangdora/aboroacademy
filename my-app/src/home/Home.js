@@ -5,6 +5,7 @@ import home2 from './home2.png';
 import home3 from './home3.png';
 import home4 from './home4.png';
 import home5 from './home5.png';
+import home6 from './home6.png';
 import ourgym from './ourgym.png';
 import ourteam from './ourteam.png';
 
@@ -36,7 +37,7 @@ class Home extends Component {
         <div className="home5wrapper">
            <img className="home5" src={home5} alt="aboro"/>
         </div>
-        <div className="home6wrapper">
+        {/* <div className="home6wrapper">
            <span className="line1">COME TRAIN WITH US</span>
            <span className="line2">We'd love to hear from you or, better, train with you.</span>
            <div className="line3Wrapper">
@@ -46,7 +47,8 @@ class Home extends Component {
            <span className="line4">Interested in turing pro?</span>
            <span className="line5">We're always happy to hear from those who embody our</span>
            <span className="line6">passion for boxing and are driven by a competitive spirit</span>
-        </div>
+        </div> */}
+        <img src={home6} className="home6"/>
       </div>
     );
   }

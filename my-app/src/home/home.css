@@ -34,10 +34,7 @@
 .home .home5Wrapper {
     position: relative
 }
-.home .home4 {
-    width: 100%;
-}
-.home .home5 {
+.home .home4, .home .home5, .home .home6 {
     width: 100%;
 }
 .home .home6wrapper {
@@ -62,13 +59,7 @@
 .home .home6wrapper .line32 {
     color: rgb(120,120,90)
 }
-.home .home6wrapper .line4 {
-    
-}
 .home .home6wrapper .line5 {
     margin-top: 20px;
-}
-.home .home6wrapper .line6 {
-    
 }
 
