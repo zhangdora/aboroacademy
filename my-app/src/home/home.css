@@ -1,0 +1,74 @@
+.home .home2wrapper {
+    position: relative;
+    height: 650px;
+    margin-bottom: -190px;
+}
+.home .home3wrapper .home3 {
+    width: 100%;
+}
+.home .home3wrapper .ourgym {
+    position: absolute;
+}
+.home .home2wrapper .home2{
+    width: 107%;
+    margin-top: -40px;
+    position: absolute;
+}
+.home .home2wrapper .text {
+    position: absolute;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    padding-left: calc(22%);
+    padding-top: calc(15%);
+} 
+.home .home2wrapper .text span {
+    margin-top: 15px;
+}
+.home .home4Wrapper {
+   position: relative
+}
+.home .home5Wrapper {
+    position: relative
+}
+.home .home4 {
+    width: 100%;
+}
+.home .home5 {
+    width: 100%;
+}
+.home .home6wrapper {
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home .home6wrapper .line1 {
+    font-size: 33px;
+    font-weight: bold;
+}
+.home .home6wrapper .line2 {
+    margin-top: 20px;
+}
+.home .home6wrapper .line3Wrapper {
+    display: inline;
+}
+.home .home6wrapper .line32 {
+    color: rgb(120,120,90)
+}
+.home .home6wrapper .line4 {
+    
+}
+.home .home6wrapper .line5 {
+    margin-top: 20px;
+}
+.home .home6wrapper .line6 {
+    
+}
+
