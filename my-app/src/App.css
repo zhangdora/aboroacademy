@@ -1,28 +1,71 @@
+@font-face {
+  font-family: opensansBold;
+  src:url('common/font/OpenSans-Bold.ttf')
+}
+@font-face {
+  font-family: opensansBold;
+  src:url('common/font/OpenSans-Bold.ttf')
+}
+@font-face {
+  font-family: opensansExtraBold;
+  src:url('common/font/OpenSans-ExtraBold.ttf')
+}
+@font-face {
+  font-family: opensansItalic;
+  src:url('common/font/OpenSans-Italic.ttf')
+}
+@font-face {
+  font-family: opensansRegular;
+  src:url('common/font/OpenSans-Regular.ttf')
+}
+@font-face {
+  font-family: oswaldRegular;
+  src:url('common/font/Oswald-Regular.ttf')
+}
+@font-face {
+  font-family: oswaldSemiBold;
+  src:url('common/font/Oswald-SemiBold.ttf')
+}
+
+*{
+  margin:0;
+  padding:0
+}
+html, body, #root, .App{
+  width:100%;
+  height:100%;
+  background: black;
+}
+
+.content {
+  width:100%;
+  height:100%;
+}
+
 .App {
+  background-image: url(./common/blackground.png);
+  background-repeat:no-repeat; 
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
+}
+.App .wrapper{
+  height: 100%;
+  width:100%;
+  padding-top: 50px;
+}
+
+.App .header {
+  list-style: none;
+  height: 23px;
+}
+
+.App .header li {
+  float: left;
+  width: 12%;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.App .header li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
 }

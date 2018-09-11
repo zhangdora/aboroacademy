@@ -1,0 +1,26 @@
+.footer {
+    height: 200px;
+    width: 100%; 
+    background-image: url("footer.png");
+    background-repeat:no-repeat; 
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+}
+
+.footer .leftContent {
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-left: 30px;
+}
+
+.footer .rightContent {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    margin-top: 128px;
+}

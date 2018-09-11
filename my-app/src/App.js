@@ -12,7 +12,7 @@ import Contact from "./contact/Contact";
 import Train from "./train/Train";
 import Tutorials from "./tutorials/Tutorials";
 import Foundation from "./foundation/Foundation";
-import Footer from "./footer/Footer";
+import Footer from "./common/footer/Footer";
 import Schedule from "./schedule/Schedule";
 
 class App extends Component {
@@ -20,8 +20,8 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          <div>
-            <ul>
+          <div className="wrapper">
+            <ul className="header">
               <li><Link to="/">Home</Link></li>
               <li><Link to="/aboutus">About Us</Link></li>
               <li><Link to="/train">Train with us</Link></li>
@@ -30,9 +30,7 @@ class App extends Component {
               <li><Link to="/contact">Contact us</Link></li>
               <li><Link to="/foundation">Foundation</Link></li>
               <li><Link to="/schedule">Schedule</Link></li>
-              <li><Link to="/footer">Footer</Link></li>
             </ul>
-            <hr/>
             <Route exact path="/" component={Home}/>
             <Route path="/aboutus" component={About} ></Route>
             <Route path="/train" component={Train} ></Route>
@@ -41,9 +39,9 @@ class App extends Component {
             <Route path="/contact" component={Contact} ></Route>
             <Route path="/foundation" component={Foundation} ></Route>
             <Route path="/schedule" component={Schedule} ></Route>
-            <Route path="/footer" component={Footer} ></Route>
           </div>
         </Router>
+        <Footer/>
       </div>
     );
   }

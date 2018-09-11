@@ -4,13 +4,7 @@ import './train.less';
 class Train extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          
-        </header>
-        <p className="App-intro">
-         
-        </p>
+      <div className="train content">
       </div>
     );
   }

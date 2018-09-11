@@ -5,7 +5,7 @@ import scheduleLogo from "./schedule.png";
 class Schedule extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="schedule content">
         <img src={scheduleLogo}/>
       </div>
     );

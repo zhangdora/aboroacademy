@@ -4,13 +4,7 @@ import './foundation.less';
 class Foundation extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          
-        </header>
-        <p className="App-intro">
-         
-        </p>
+      <div className="events content">
       </div>
     );
   }
