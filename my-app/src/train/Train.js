@@ -4,6 +4,7 @@ import train1 from './train1.png';
 import train2 from './train2.png';
 import proboxing from './proboxing.png';
 import Footer from "./../common/footer/Footer";
+import {Carousel} from 'antd';
 
 class Train extends Component {
   render() {
@@ -37,6 +38,14 @@ class Train extends Component {
         </div>
         <div className="content2">
           <div className="line1">WHY CHOOSE OUR TRAINING PROGRAMME?</div>
+          {/* <div>
+            <Carousel>
+              <div><h3>1</h3></div>
+              <div><h3>2</h3></div>
+              <div><h3>3</h3></div>
+              <div><h3>4</h3></div>
+            </Carousel>
+          </div> */}
         </div>
         <div className="content3">
           <div className="leftContent">

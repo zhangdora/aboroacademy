@@ -1,0 +1,27 @@
+.events .event-wrapper {
+    background-color: #fafafa;
+    border: 1px solid #eaeaea;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 30px;
+    overflow: hidden;
+    padding: 40px 30px 30px;
+    display: flex;
+}
+
+.events .event-date {
+    background-color: #515151;
+    color: #fff;
+    font-weight: 400;
+    display: block;
+    font-size: 36px;
+    line-height: 35px;
+    margin-bottom: 0px;
+    padding: 2px 0 3px;
+    text-align: center;
+}
+
+.events .event-title-wrapper a {
+    text-decoration: none;
+    color: #000;
+}

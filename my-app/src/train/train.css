@@ -31,6 +31,11 @@
     font-size: 15px;
     margin-top: 10px;
 }
+.train .content2 {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 .train .content3 {
     display: flex;
     margin-top: 50px;
@@ -57,4 +62,16 @@
 
 .rightContent {
     flex: 1;
+}
+
+.train .ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    overflow: hidden;
+    background: #364d79;
+  }
+  
+.train .ant-carousel .slick-slide h3 {
+    color: #fff;
 }
