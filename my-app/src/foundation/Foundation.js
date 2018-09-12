@@ -4,6 +4,7 @@ import foundation1 from './foundation1.jpg';
 import foundation2 from './foundation2.jpg';
 import foundation4 from './foundation4.png';
 import foundation from './foundation.png';
+import Footer from "./../common/footer/Footer";
 
 class Foundation extends Component {
   render() {
@@ -53,6 +54,7 @@ class Foundation extends Component {
           </div>
         </div>
         <img src={foundation4} className="content4"/>
+        <Footer/>
       </div>
     );
   }

@@ -1,0 +1,16 @@
+.coachBio .bioWrapper {
+    display: flex;
+    height: 800px;
+    padding: 100px 50px 0 50px;
+    color: #fff;
+}
+.coachBio .bioWrapper .leftContent{
+    flex: 1;
+}
+.coachBio .bioWrapper .rightContent{
+    flex: 1;
+}
+.coachBio .bioWrapper .leftContent img{
+    height: 300px;
+    width: 400px;
+}

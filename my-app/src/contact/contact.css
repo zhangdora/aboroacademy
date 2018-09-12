@@ -1,0 +1,59 @@
+.contactWrapper{
+	padding-left: 180px;
+	padding-right: 180px;
+	color: #fff;
+}
+.contactWrapper .title{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.contactWrapper .content{
+	font-size: 16px;
+	line-height: 25px;
+}
+.contactWrapper .form {
+	text-align: center;
+	margin-bottom: 150px;
+}
+.contactWrapper .form input {
+	height: 40px;
+	text-indent: 5px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.contactWrapper .form textarea {
+	text-indent: 5px;
+	font-size: 20px;
+	font-weight: 900;
+}
+.contactWrapper .form button{
+	border: none;
+	color: #fff;
+	margin-top: 20px;
+	width: 250px;
+	height: 50px;
+	font-size: 18px;
+	padding: 10px 20px;
+	background: #8e8459;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #a9901e;
+    font-weight: bold;
+    font-size: 18px;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+   color: #a9901e;
+   font-weight: bold;
+   font-size: 18px;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+   color: #a9901e;
+   font-weight: bold;
+   font-size: 18px;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+   color: #a9901e;
+   font-weight: bold;
+   font-size: 18px;
+}

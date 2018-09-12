@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+.scheduleWrapper{
+	position: relative;
+	border: 0;
+	width: 980px;
+	height: 400px;
+	margin: 0 auto;
+	z-index: 0;
+	background: #000;
+	color: #fff;
+	text-align: center;
+}
+.scheduleWrapper li{
+	border-top: 2px solid #a9901e;
+	border-bottom: 2px solid #a9901e;
+	display: inline-block;
+	width: 140px;
+	height: 100%;
+}
+.scheduleWrapper .firstLi{
+	border-left: 2px solid #a9901e;
+}
+.scheduleWrapper .lastLi{
+	border-right: 2px solid #a9901e;
+}
+.scheduleWrapper li:hover{
+	border: 2px solid #a9901e;
+	transform: scaleY(1.1);
+	z-index: 2;
+	background: #000;
+}
+.scheduleWrapper li .title{
+	border-bottom: 1px solid #a9901e;
+	color: #a9901e;
+	height: 40px;
+	line-height: 40px;
+}
+.scheduleWrapper li:hover .title{
+	color: #fff;
+	height: 52px;
+	transform: scaleY(1.1);
+	background: #a9901e;
+}
+.scheduleWrapper .morning{
+	border-bottom: 1px solid #a9901e ;
+	padding: 5px;
+}

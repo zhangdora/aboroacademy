@@ -1,0 +1,60 @@
+.train {
+    color: #fff;
+    padding-top: 30px;
+}
+.train .content1 {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.train .leftContent {
+    flex: 1;
+    text-align: left;
+}
+.train .rightContent {
+    flex: 1;
+    text-align: center;
+}
+.train .content1 .leftContent img {
+    height: 300px;
+    width: 300px;
+}
+.train .content1 .rightContent img {
+    height: 640px;
+}
+.train .content1 .leftContent .line1 {
+    color: rgb(33, 76, 54);
+    font-size: 28px;
+    font-weight: 600;
+}
+.train .content1 .leftContent .line2 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.train .content3 {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.train .content3 .leftContent .line1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.train .content3 .leftContent .line2 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+.train .content3 .rightContent img{
+    height: 300px;
+}
+
+.leftContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightContent {
+    flex: 1;
+}

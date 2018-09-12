@@ -2,12 +2,75 @@
     position: relative;
     height: 650px;
     margin-bottom: -190px;
+    background-image: url('./home2.png');
+    background-repeat:no-repeat; 
+    background-size:110% 100%;
+    -moz-background-size:100% 100%;
+    text-align: center;
+}
+.home .home3wrapper .textwrapper, .home .home4wrapper .textwrapper, .home .home5wrapper .textwrapper {
+    position: relative;
+    height: 0px;
+}
+.home .home3wrapper .textwrapper img {
+    position: relative;
+    top: -650px;
+    height: 400px;
+    margin-left: -50px;
+}
+.home .home5wrapper .textwrapper img {
+    position: relative;
+    top: -650px;
+    height: 400px;
+    margin-left: -90px;
+}
+.home .home5wrapper .trainBtn {
+    position: relative;
+    top: -650px;
+    height: 50px;
+    width: 200px;
+    margin-left: -450px;
+    margin-top: 20px;
+    background-color: rgb(134,128,96);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+.home .home3wrapper .textwrapper .hometext{
+    position: relative;
+    top: -650px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left: 50px;
+}
+.home .home4wrapper .textwrapper .hometext {
+    position: relative;
+    top: -650px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.home .home3wrapper .textwrapper .hometext span, .home .home4wrapper .textwrapper .hometext span{
+    margin-top: 10px;
+}
+.home .trainBtn {
+    position: relative;
+    top: -650px;
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: rgb(134,128,96);
+    border: none;
+    color: #fff;
+    font-size: 16px;
 }
 .home .home3wrapper .home3 {
     width: 100%;
-}
-.home .home3wrapper .ourgym {
-    position: absolute;
 }
 .home .home2wrapper .home2{
     width: 107%;
@@ -23,10 +86,15 @@
     font-weight: bold;
     align-items: center;
     padding-left: calc(22%);
-    padding-top: calc(15%);
+    padding-top: calc(10%);
 } 
 .home .home2wrapper .text span {
     margin-top: 15px;
+}
+.home .home2wrapper .home7 {
+    width: 200px;
+    height: 200px;
+    margin-top: 300px;
 }
 .home .home4Wrapper {
    position: relative

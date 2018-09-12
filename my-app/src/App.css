@@ -51,7 +51,7 @@ html, body, #root, .App{
 .App .wrapper{
   height: 100%;
   width:100%;
-  padding-top: 50px;
+  padding-top: 30px;
   min-height: 1000px;
   overflow-y: auto;
   overflow-x: hidden;
@@ -59,16 +59,32 @@ html, body, #root, .App{
 
 .App .header {
   list-style: none;
-  height: 23px;
+  height: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .App .header li {
   float: left;
-  width: 12%;
+  width: calc((100% - 196px) / 8);
   text-align: center;
+  height: 130px;
+  display: flex;
+  align-items: center;
+}
+.App .header .logoTab{
+  width: 196px;
+}
+.App .header .rightTab{
+  justify-content: right;
 }
 .App .header li a {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
+}
+
+.App .header .headerLogo {
+  height: 130px;
+  width: 196px;
 }

@@ -8,6 +8,7 @@
     color: #fff;
     display: flex;
     font-size: 14px;
+    position: relative;
 }
 
 .footer .leftContent {
