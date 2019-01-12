@@ -26,6 +26,26 @@
   font-family: oswaldSemiBold;
   src:url('common/font/Oswald-SemiBold.ttf')
 }
+@font-face {
+  font-family: oswaldSemiBold;
+  src:url('common/font/Oswald-SemiBold.ttf')
+}
+@font-face {
+  font-family: firmeBlack;
+  src:url('common/font/OTF/Firme\ Black.otf')
+}
+@font-face {
+  font-family: firmeBold;
+  src:url('common/font/OTF/Firme\ Bold.otf')
+}
+@font-face {
+  font-family: firmeExtraBold;
+  src:url('common/font/OTF/Firme\ Extra\ Bold.otf')
+}
+@font-face {
+  font-family: firmeThin;
+  src:url('common/font/OTF/Firme-Thin.otf')
+}
 
 *{
   margin:0;
@@ -66,25 +86,62 @@ html, body, #root, .App{
 
 .App .header li {
   float: left;
-  width: calc((100% - 196px) / 8);
   text-align: center;
   height: 130px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: calc((100% - 170px) / 6);
 }
 .App .header .logoTab{
-  width: 196px;
-}
-.App .header .rightTab{
-  justify-content: right;
+  width: 170px;
 }
 .App .header li a {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: firmeBold;
 }
 
 .App .header .headerLogo {
-  height: 130px;
-  width: 196px;
+  height: 112px;
+  width: 170px;
+}
+
+.ant-dropdown {
+  background-color: rgba(0,0,0,0.2) !important;
+  display: flex !important;
+  justify-content: center !important;
+  border: 1px solid rgb(134,128,96);
+  width: 120px;
+  left: 49px !important;
+}
+.ant-dropdown-menu {
+  width: 88%;
+  background-color: transparent !important;
+}
+
+.ant-dropdown-menu-item {
+  border-bottom: 1px solid rgb(134,128,96);
+  text-align: center;
+}
+
+.last-ropdown-menu-item {
+  border-bottom: none;
+}
+
+.ant-dropdown-menu-item > a {
+  font-size: 12px !important;
+  font-weight: bold !important;
+  font-family: firmeBold !important;
+  color: #fff !important
+}
+
+.ant-dropdown-menu-item > a:hover {
+  color: rgb(33, 76, 54) !important
+}
+
+.ant-dropdown-menu-item:hover, .ant-dropdown-menu-submenu-title:hover {
+  background-color: transparent !important
 }

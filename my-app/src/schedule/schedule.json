@@ -1,0 +1,155 @@
+{
+	"row1": [{
+		"key": "1",
+		"monday": {
+            "time": "7:00 - 8:00",
+            "course": "BOXING",
+            "content": "skills & drills",
+			"type": "boxing",
+			"isBeginner": true,
+			"isIntermedate": true,
+			"isAdvanced": false,
+			"isWoman": false
+		},
+		"tuesday": {
+            "time": "7:00 - 8:00",
+            "course": "KICKBOXING",
+            "content": "skills & drills",
+			"type": "kickboxing",
+			"isBeginner": true,
+			"isIntermedate": true,
+			"isAdvanced": true,
+			"isWoman": false
+        },
+        "wednesday": {
+            "time": "7:00 - 8:00",
+            "course": "BOXING",
+            "content": "pads & bags",
+			"type": "boxing",
+			"isBeginner": true,
+			"isIntermedate": true,
+			"isAdvanced": false,
+			"isWoman": false
+        },
+        "thursday": {},
+        "friday": {
+            "time": "7:00 - 8:00",
+            "course": "BOXING",
+            "content": "skills & drills",
+			"type": "boxing",
+			"isBeginner": true,
+			"isIntermedate": false,
+			"isAdvanced": false,
+			"isWoman": false
+        },
+        "saturday": {
+            "time": "7:00 - 8:00",
+            "course": "STRENGTH & CONDITIONING",
+			"type": "strength",
+			"isBeginner": true,
+			"isIntermedate": true,
+			"isAdvanced": true,
+			"isWoman": false
+        },
+        "sunday": {}
+    },{
+		"key": "2",
+		"monday": {},
+		"tuesday": {},
+        "wednesday": {},
+        "thursday": {},
+        "friday": {},
+        "saturday": {
+            "time": "10:00 - 11:00",
+            "course": "WOMAN BOXING",
+            "content": "skills & drills",
+			"type": "boxing",
+			"isBeginner": true,
+			"isIntermedate": true,
+			"isAdvanced": false,
+			"isWoman": true
+        },
+        "sunday": {
+            "time": "09:15 - 10:00",
+            "course": "BOXING",
+            "content": "skills & drills",
+			"type": "boxing",
+			"isBeginner": true,
+			"isIntermedate": true,
+			"isAdvanced": false,
+			"isWoman": false
+        }
+    },{
+		"key": "3",
+		"monday": {},
+		"tuesday": {},
+        "wednesday": {},
+        "thursday": {},
+        "friday": {},
+        "saturday": {},
+        "sunday": {
+            "time": "10:00 - 11:00",
+            "course": "CROSS",
+            "content": "TRAINING",
+			"type": "cross",
+			"isBeginner": false,
+			"isIntermedate": true,
+			"isAdvanced": true,
+			"isWoman": false
+        }
+    },{
+		"key": "1",
+		"monday": {
+            "time": "7:00 - 8:00",
+            "course": "BOXING",
+            "content": "skills & drills",
+			"type": "boxing",
+			"isBeginner": true,
+			"isIntermedate": true,
+			"isAdvanced": false,
+			"isWoman": false
+		},
+		"tuesday": {
+            "time": "7:00 - 8:00",
+            "course": "KICKBOXING",
+            "content": "skills & drills",
+			"type": "kickboxing",
+			"isBeginner": true,
+			"isIntermedate": true,
+			"isAdvanced": true,
+			"isWoman": false
+        },
+        "wednesday": {
+            "time": "7:00 - 8:00",
+            "course": "BOXING",
+            "content": "pads & bags",
+			"type": "boxing",
+			"isBeginner": true,
+			"isIntermedate": true,
+			"isAdvanced": false,
+			"isWoman": false
+        },
+        "thursday": {},
+        "friday": {
+            "time": "7:00 - 8:00",
+            "course": "BOXING",
+            "content": "skills & drills",
+			"type": "boxing",
+			"isBeginner": true,
+			"isIntermedate": false,
+			"isAdvanced": false,
+			"isWoman": false
+        },
+        "saturday": {
+            "time": "7:00 - 8:00",
+            "course": "STRENGTH & CONDITIONING",
+			"type": "strength",
+			"isBeginner": true,
+			"isIntermedate": true,
+			"isAdvanced": true,
+			"isWoman": false
+        },
+        "sunday": {}
+    }
+
+]}

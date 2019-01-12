@@ -14,21 +14,22 @@
     padding-right: 50px;
 }
 .foundation .content2 img {
-    width: 400px;
+    width: 407px;
 }
 .foundation .content2 .line1 {
-    font-weight: 800;
     font-size: 20px;
     color: #fff;
+    font-family: firmeExtraBold;
 }
 .foundation .content2 .line2 {
     color: rgb(239,92,46);
-    font-size: 37px;
-    font-weight: 400;
+    font-size: 32px;
+    font-family: firmeExtraBold;
 }
 .foundation .content2 .line3,  .content2 .line4{
     color: #fff;
     margin-top: 20px;
+    font-family: firmeThin;
 }
 .foundation .leftContent {
     flex: 1;
@@ -55,20 +56,23 @@
     width: 500px;
 }
 .foundation .content3 .rightContent .line1 {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    font-family: firmeExtraBold;
 }
 
 .foundation .content3 .rightContent .line2 {
     font-size: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: firmeThin;
 }
 
 .foundation .content3 .rightContent .line3 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 19px;
+    font-family: firmeBold;
 }
 
 .foundation .content4 {

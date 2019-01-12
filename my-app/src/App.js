@@ -4,6 +4,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import { Menu, Dropdown} from 'antd'
 import './App.css';
 import Home from "./home/Home";
 import About from "./about/About";
@@ -15,24 +16,28 @@ import Foundation from "./foundation/Foundation";
 import Schedule from "./schedule/Schedule";
 import CoachBio from "./coachBio/CoachBio";
 import Team from "./team/Team";
-import logo from "./common/logo.png";
+import logo from "./common/logo2.svg";
 
 class App extends Component {
   render() {
+    let aboutUsMenu = <Menu>
+      <Menu.Item><Link to="/foundation">FOUNDATION</Link></Menu.Item>
+      <Menu.Item><Link to="/schedule">SCHEDULE</Link></Menu.Item>
+      <Menu.Item className="last-ropdown-menu-item"><Link to="/team">OUR TEAM</Link></Menu.Item>
+    </Menu>;
     return (
       <div className="App">
         <Router>
           <div className="wrapper">
             <ul className="header">
-              <li><Link to="/aboutus">About Us</Link></li>
-              <li><Link to="/train">Train with us</Link></li>
-              <li><Link to="/tutorials">Tutorials</Link></li>
-              <li><Link to="/events">Events</Link></li>
+              <li>
+                <Dropdown overlay={aboutUsMenu}><Link to="/aboutus">ABOUT US</Link></Dropdown>
+              </li>
+              <li><Link to="/train">TRAIN WITH US</Link></li>
+              <li><Link to="/tutorials">TUTORIALS</Link></li>
               <li className="logoTab"><Link to="/"><img className="headerLogo" src={logo}/></Link></li>
-              <li><Link to="/contact">Contact us</Link></li>
-              <li><Link to="/foundation">Foundation</Link></li>
-              <li><Link to="/schedule">Schedule</Link></li>
-              <li><Link to="/team">Our Team</Link></li>
+              <li><Link to="/events">EVENTS</Link></li>
+              <li><Link to="/contact">CONTACT US</Link></li>
             </ul>
             <Route exact path="/" component={Home}/>
             <Route path="/aboutus" component={About} ></Route>

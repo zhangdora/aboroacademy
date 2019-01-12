@@ -28,16 +28,22 @@ class Home extends Component {
         <div className="home3wrapper">
           <img className="home3" src={home3} alt="aboro"/>
           <div className="textwrapper">
-            <img className="ourgym" src={ourgym} alt="ourgym"/>
+            {/* <img className="ourgym" src={ourgym} alt="ourgym"/> */}
             <div className="hometext">
-              <span>Nowhere in the world will you find a gym like ours.</span>
-              <span>A welcoming, supportive community environment in</span>
-              <span>which you can train with a seven-time World Champion.</span>
+              <span>The Aboro Academy is more than a gym.</span>
+              <span>It is a place where let you breathe in the spirit of boxing.</span>
+              <span>We inspire the best out of you and you can experience the best of what boxing has to offer.</span>
+              <br/>
+              <span>We want Aboro to feel like your second home.</span>
+              <span>A place where everyone is welcome, regardless of your level, from zero to pro.</span>
+              <br/>
+              <span>Our dedicated team of professionals is here to guide, coach, teach and train you.</span>
+              <span>You set your goals. We know the way there.</span>
             </div>
-            <Button className="trainBtn">Start Training</Button>
+            {/* <Button className="trainBtn">START TRAINING</Button> */}
           </div>
         </div>
-        <div className="home4wrapper">
+        {/* <div className="home4wrapper">
           <img className="home4" src={home4} alt="aboro"/>
           <div className="textwrapper">
             <div className="hometext">
@@ -55,7 +61,7 @@ class Home extends Component {
               <img className="ourteam" src={ourteam} alt="ourteam"/>
               <Button className="trainBtn">MEET US</Button>
             </div>
-        </div>
+        </div> */}
         <img src={home6} className="home6"/>
         <Footer/>
       </div>

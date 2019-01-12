@@ -12,6 +12,9 @@
     position: relative;
     height: 0px;
 }
+.home .home3wrapper {
+    height: 700px;
+}
 .home .home3wrapper .textwrapper img {
     position: relative;
     top: -650px;
@@ -42,7 +45,12 @@
     display: flex;
     flex-direction: column;
     color: #fff;
-    margin-left: 50px;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+    margin-left: 300px;
+
 }
 .home .home4wrapper .textwrapper .hometext {
     position: relative;
@@ -51,8 +59,8 @@
     flex-direction: column;
     color: #fff;
     margin-left: 50px;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 38px;
+    font-family: fireBold;
 }
 .home .home3wrapper .textwrapper .hometext span, .home .home4wrapper .textwrapper .hometext span{
     margin-top: 10px;
@@ -82,11 +90,15 @@
     color: #fff;
     display: flex;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
     align-items: center;
     padding-left: calc(22%);
     padding-top: calc(10%);
+    font-family: opensansBold;
+} 
+.home .home3wrapper .text {
+    font-size: 16px;
 } 
 .home .home2wrapper .text span {
     margin-top: 15px;
